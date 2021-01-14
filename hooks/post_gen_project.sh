@@ -6,7 +6,7 @@ direnv allow
 git init
 
 # Adding these dynamically to always pick fresh versions
-poetry add --dev \
+asdf exec poetry add --dev \
     pytest \
     black \
     flake8 \
@@ -14,4 +14,4 @@ poetry add --dev \
     isort \
     mypy
 
-poetry install
+asdf exec poetry install

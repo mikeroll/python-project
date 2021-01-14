@@ -1,0 +1,9 @@
+{
+    "name": null,
+    "slug": "{{ cookiecutter.name.lower().replace(' ', '_').replace('-', '_') }}",
+    "version": "0.1.0",
+    "description": "",
+    "author": "Mikhail Bulash <scaryspiderpig@protonmail.com>",
+    "license": "MIT",
+    "python_version": "3.8.7"
+}

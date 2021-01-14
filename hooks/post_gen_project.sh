@@ -14,4 +14,4 @@ asdf exec poetry add --dev \
     isort \
     mypy
 
-asdf exec poetry install
+asdf exec poetry install --no-root
